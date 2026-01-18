@@ -1,0 +1,25 @@
+// Custom.css
+// Option A: Include all of Bootstrap
+
+// Include any default variable overrides here (though functions won’t be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+h1,
+h2,
+h3,
+.card-title {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+body,
+.card-text,
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
