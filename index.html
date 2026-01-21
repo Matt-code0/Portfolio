@@ -46,13 +46,16 @@
           <div class="collapse navbar-collapse" id="navbar">
             <ul class="navbar-nav ms-auto mb-2 mb-md-0">
               <li class="nav-item">
-                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#about"> This Portfolio </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#projects">Projects </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About me </a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
@@ -67,38 +70,58 @@
       <section id="about" class="py-5">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-lg-8">
+            <div class="col-lg-8 text-center">
+              <!-- Avatar -->
+              <div class="text-center mb-4">
+                <img
+                  src="/images/avatar.png"
+                  alt="My Avatar"
+                  class="rounded-circle"
+                  width=""
+                  height="200"
+                />
+              </div>
               <h2 class="text-center mb-4 fw-bolder">About this Portfolio</h2>
               <p>
-                I created this portfolio to show what I have learned during my
-                intensive IT course, and I'm still working on it! These are not
-                just exercises – each project is designed to work like a real
-                application. This portfolio helps me track my progress and
-                demonstrates the skills I am building as a junior developer.
+                I created this portfolio to showcase my journey through an
+                intensive IT course. The projects here are not just simple
+                exercises, but functional applications built to solve practical
+                problems. This portfolio helps me track my progress as I explore
+                different technologies and build a solid foundation as a junior
+                developer.
               </p>
               <p>
-                My main focus is on <strong>C# and ASP.NET Core</strong>, but I
-                also enjoy playing with the frontend to make things look good.
-                Every project here has a link to GitHub where you can check my
-                code, and a live demo so you can see it in action. I try to
-                write clean code and learn something new with every commit.
+                The course provided a broad introduction to full-stack
+                development, covering backend logic, databases, and responsive
+                frontend design. I enjoy learning how different parts of a
+                system work together and improving my understanding through
+                hands-on projects. Each project includes a GitHub repository
+                where my learning process and progress are documented.
               </p>
-              <ul class="list">
+              <!-- urpaveny seznam vcetne centrovani -->
+              <ul
+                class="mx-auto text-start"
+                style="
+                  max-width: 700px;
+                  list-style-type: disc;
+                  padding-left: 20px;
+                "
+              >
                 <li>
-                  <strong>Real Projects:</strong> No more "Hello World" – these
-                  are functional web apps.
+                  <strong>Full-Stack Exposure:</strong> Experience with both
+                  backend concepts and modern web interfaces.
                 </li>
                 <li>
-                  <strong>Learning by Doing:</strong> I focus on backend logic,
-                  databases, and responsive design.
+                  <strong>Practical Projects:</strong> Functional applications
+                  beyond basic examples.
                 </li>
                 <li>
-                  <strong>Open Source:</strong> You can see my entire journey
-                  and all my mistakes on GitHub.
+                  <strong>Learning in Practice:</strong> Skills developed
+                  through real project work during an intensive course.
                 </li>
                 <li>
-                  <strong>Active Growth:</strong> I'm currently finishing the
-                  course and looking for my first junior role.
+                  <strong>Junior Progress:</strong> Currently finishing my
+                  studies and preparing for a first junior role.
                 </li>
               </ul>
             </div>
@@ -106,16 +129,16 @@
         </div>
       </section>
       <!--Projects-->
-      <section id="projects" class="py-5 bg-info-subtle rounded-5">
+      <section id="projects" class="py-5 rounded-5">
         <div class="container">
           <h2 class="mb-4 text-center fw-bolder">Projects</h2>
           <div class="row justify-content-center" id="projects">
             <!-- Fitness App -->
             <div class="col-md-6 col-lg-4 d-flex mb-4">
-              <div class="card h-100 shadow">
+              <div class="card h-100 shadow rounded-4">
                 <!-- Carousel (project screenshots) -->
                 <div
-                  class="card-image w-100"
+                  class="card-image w-100 rounded-4"
                   style="height: 500px; position: relative; overflow: hidden"
                 >
                   <div
@@ -246,9 +269,9 @@
 
             <!-- HappyPaws -->
             <div class="col-md-6 col-lg-4 d-flex mb-4">
-              <div class="card h-100 shadow">
+              <div class="card h-100 shadow rounded-4">
                 <div
-                  class="card-image w-100"
+                  class="card-image w-100 rounded-4"
                   style="height: 500px; overflow: hidden; position: relative"
                 >
                   <img
@@ -413,42 +436,44 @@
       <!--Skills-->
       <div class="container" id="skills">
         <h2 class="text-center mb-4 fw-bolder">Skills</h2>
-        <div class="row">
-          <p>
-            I have completed an intensive programming course focused on
-            object-oriented programming and web application development. I am
-            continuing to develop my skills and gain practical experience.
-          </p>
-          <p class="text-muted small">
-            Technologies listed as "In progress" are part of my current course
-            curriculum. I am actively learning them and gradually applying them
-            in practice.
-          </p>
-          <ul class="list ps-5 ms-0">
-            <li>
-              <strong>Backend:</strong> C# (ASP.NET Core MVC, Web API), Java
-              (Spring, JUnit)
-            </li>
-            <li><strong>Web:</strong> HTML5, CSS3, Bootstrap</li>
-            <li class="text-muted small m-1">
-              <span
-                class="spinner-border spinner-border-sm me-1"
-                role="status"
-                aria-hidden="true"
-              ></span>
-              <strong>In progress:</strong> JavaScript, React, PHP, MySQL
-            </li>
-            <li>
-              <strong>Tools & Platforms:</strong> Selenium, Microsoft Azure,
-              Docker, Git
-            </li>
-          </ul>
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <p>
+              I have completed an intensive programming course focused on
+              object-oriented programming and web application development. I am
+              continuing to develop my skills and gain practical experience.
+            </p>
+            <p class="text-muted small">
+              Technologies listed as "In progress" are part of my current course
+              curriculum. I am actively learning them and gradually applying
+              them in practice.
+            </p>
+            <ul class="list ps-5 ms-0">
+              <li>
+                <strong>Backend:</strong> C# (ASP.NET Core MVC, Web API), Java
+                (Spring, JUnit)
+              </li>
+              <li><strong>Web:</strong> HTML5, CSS3, Bootstrap</li>
+              <li class="text-muted small m-1">
+                <span
+                  class="spinner-border spinner-border-sm me-1"
+                  role="status"
+                  aria-hidden="true"
+                ></span>
+                <strong>In progress:</strong> JavaScript, React, PHP, MySQL
+              </li>
+              <li>
+                <strong>Tools & Platforms:</strong> Selenium, Microsoft Azure,
+                Docker, Git
+              </li>
+            </ul>
+          </div>
         </div>
 
         <div class="row g-4">
           <!-- Backend Icons -->
           <div class="col-md-6">
-            <div class="p-4 rounded bg-light h-100 shadow">
+            <div class="p-4 rounded-4 bg-light h-100 shadow">
               <h5 class="text-center mb-4">Backend</h5>
               <div class="d-flex justify-content-around flex-wrap gap-3">
                 <div class="text-center">
@@ -484,7 +509,7 @@
 
           <!-- Web Icons -->
           <div class="col-md-6">
-            <div class="p-4 rounded bg-light h-100 shadow">
+            <div class="p-4 rounded-4 bg-light h-100 shadow">
               <h5 class="text-center mb-4">Web</h5>
               <div class="d-flex justify-content-around flex-wrap gap-3">
                 <div class="text-center">
@@ -546,6 +571,90 @@
         </div>
       </div>
     </div>
+
+    <!-- About Me -->
+    <section id="about-me" class="py-5">
+      <div class="container">
+        <!-- Heading -->
+        <h2 class="text-center mb-4 fw-bolder">About Me</h2>
+
+        <!-- Text content -->
+        <div class="row justify-content-center">
+          <div class="col-lg-8 text-center">
+            <p>
+              I am a flexible, independent, and creative individual with a
+              positive approach to challenges. I am passionate about technology
+              and continuously developing my skills as I complete my IT course.
+            </p>
+
+            <p>
+              I love traveling and staying active – fitness, swimming,
+              snowboarding, and cycling are some of my favorite activities. My
+              passion for fitness inspired me to create a workout management
+              application, combining my interests with my learning in
+              programming.
+            </p>
+
+            <p>
+              Beyond development, I enjoy exploring new places and experiences,
+              which helps me stay motivated and bring creativity into my
+              projects.
+            </p>
+
+            <!-- Gallery -->
+            <div class="row justify-content-center mt-4 g-3">
+              <div
+                class="col-12 col-md-6 col-lg-3 d-flex justify-content-center"
+              >
+                <img
+                  src="/images/jap1.jpg"
+                  alt="Japan - mount Fuji"
+                  title="Japan - mount Fuji"
+                  class="img-fluid rounded-4"
+                  style="width: 100%; max-width: 250px"
+                />
+              </div>
+
+              <div
+                class="col-12 col-md-6 col-lg-3 d-flex justify-content-center"
+              >
+                <img
+                  src="/images/travel3.jpg"
+                  alt="New Zealand - snowboarding"
+                  title="New Zealand - snowboarding"
+                  class="img-fluid rounded-4"
+                  style="width: 100%; max-width: 250px"
+                />
+              </div>
+
+              <div
+                class="col-12 col-md-6 col-lg-3 d-flex justify-content-center"
+              >
+                <img
+                  src="/images/travel4.jpg"
+                  alt="Japan - Island Ishigaki"
+                  title="Japan - Island Ishigaki"
+                  class="img-fluid rounded-4"
+                  style="width: 100%; max-width: 250px"
+                />
+              </div>
+
+              <div
+                class="col-12 col-md-6 col-lg-3 d-flex justify-content-center"
+              >
+                <img
+                  src="/images/gym1.png"
+                  alt="Gym photo"
+                  title="gym"
+                  class="img-fluid rounded-4"
+                  style="width: 100%; max-width: 250px"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <!--KONTAKTNI FORM-->
     <!-- <div class="container" id="contact">
          <h2>Send me a message</h2>
@@ -597,7 +706,7 @@
           </a>
           <a
             class="btn"
-            href="https://www.linkedin.com/"
+            href="https://www.linkedin.com/in/mat%C4%9Bj-holu%C5%A1a-4548853a7/"
             role="button"
             target="_blank"
             rel="noopener"
@@ -610,10 +719,15 @@
             />
           </a>
         </p>
-        <div><small>Matěj Holuša &copy; 2025</small></div>
+        <div>
+          <small>&copy; <span id="currentYear"></span> Matěj Holuša</small>
+        </div>
       </div>
     </footer>
-
+    <script>
+      document.getElementById("currentYear").textContent =
+        new Date().getFullYear();
+    </script>
     <!--JS script-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
